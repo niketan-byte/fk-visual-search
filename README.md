@@ -1,8 +1,8 @@
 # fk-visual-search
-This code allows you to train the Visnet model. Visnet, trained on Flipkart's proprietary internal dataset, powers Visual Recommendations at Flipkart. On the publically available dataset, [Street2Shop](http://tamaraberg.com/street2shop/), Visnet achieves state-of-the-art results. [Here](https://arxiv.org/abs/1703.02344) is the link to the arXiv tech report.
+This code allows you to train the Visnet model. Visnet, trained on Flipkart's proprietary internal dataset, powers Visual recommendations at Flipkart. On the publically available dataset, [Street2Shop](http://tamaraberg.com/street2shop/), Visnet achieves state-of-the-art results. (https://arxiv.org/abs/1703.02344) is the link to the arXiv tech report.
 
 In this Repo, we have open-sourced the following:
-* Training prototxts of Visnet
+* Training prototexts of Visnet
 * Triplet sampling code, to generate the training files
 * A CUDA based fast K-Nearest Neighbor Search library
 * Other auxillary scripts, such as code to process [Street2Shop](http://tamaraberg.com/street2shop/) dataset, sampling triplets, etc.
@@ -33,5 +33,5 @@ If you wish to train Visnet on [Street2Shop](http://tamaraberg.com/street2shop/)
 6) Run training using Caffe
 
 
-## Feature extraction and NN Search
+## Feature Extraction and NN Search
 We provide PyCaffe code to do Feature Extraction (scripts/feature_extractor.py), and a CUDA-based fast NN computer (scripts/cuda_knn.py).
